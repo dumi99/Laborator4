@@ -12,7 +12,7 @@ document.getElementById("altitude").innerHTML = "Altitude = "+position.coords.al
 
 var latlon = position.coords.latitude + "," + position.coords.longitude;
 
-var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&key=AIzaSyAC-EEUuPWNapp4LlohSY2QZlObP7NOJ9o";
+var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&key=AIzaSyAeY-7Bkjs21BjMafKxZvM5bTm_G4JJtWk";
 
 document.getElementById("map").innerHTML = "<img src='"+img_url+"'>";
 
